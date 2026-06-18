@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html>
+<html lang ="en">
+  <head>
+    <style>
+    body{
+        margin:0;
+        padding:0;
+
+    }  
+    .box{
+        width:400px;
+        height:500px;
+        border:1px solid black;
+        margin:auto;
+        display:grid;
+
+
+
+    grid-template-columns: repeat(4,100px);
+    grid-template-rows: repeat(5,100px);
+
+
+        padding:50px;
+        gap:10px;
+
+        justify-content: center;
+        align-content: center;
+
+        scale:0.8;
+    }
+
+
+    .sbox{
+        border:1px solid;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #screen {
+        grid-column: 1/5;
+        display:flex;
+        justify-content: end;
+        align-items:end;
+        font-size: 30px;
+    }
+    </style>
+    </head>
+    <body>
+
+
+
+        <div class ="box">
+        <div class ="sbox" id ="screen">0</div>
+        <div class="sbox">7</div>
+        <div class="sbox">8</div>
+        <div class="sbox">9</div>
+        <div class="sbox">*</div>
+        <div class="sbox">4</div>
+        <div class="sbox">5</div>
+        <div class="sbox">6</div>
+        <div class="sbox">/</div>
+        <div class="sbox">1</div>
+        <div class="sbox">2</div>
+        <div class="sbox">3</div>
+        <div class="sbox">+</div>
+        <div class="sbox">.</div>
+        <div class="sbox">0</div>
+        <div class="sbox">=</div>
+        <div class="sbox">-</div>
+    </div>
+    
+    </body>
+    </html>
